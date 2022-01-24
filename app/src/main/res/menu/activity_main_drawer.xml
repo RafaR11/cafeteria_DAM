@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/menuFragment"
+            android:icon="@drawable/home"
+            android:title="@string/inici"
+            android:visible="true" />
+        <item
+            android:id="@+id/HistorialFragment"
+            android:icon="@drawable/history1"
+            android:title="@string/historial_de_comandes" />
+        <item
+            android:id="@+id/aboutFragment"
+            android:icon="@drawable/info2"
+            android:title="@string/informaci" />
+
+
+
+</menu>

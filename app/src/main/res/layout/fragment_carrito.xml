@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.CarritoFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/titleConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3BC58542">
+
+        <TextView
+            android:id="@+id/textCarrito"
+            android:layout_width="198dp"
+            android:layout_height="51dp"
+            android:fontFamily="@font/fredoka_one"
+            android:shadowColor="#F1BA90"
+            android:shadowDy="6"
+            android:shadowRadius="4"
+            android:text="COMANDA"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#755423"
+            android:textSize="37sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.314"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.108" />
+
+        <TextView
+            android:id="@+id/textViewCarrito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairo"
+            android:text="Aquesta es la teva comanda:"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.377"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.249" />
+
+        <TextView
+            android:id="@+id/textViewPreuTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairo"
+            android:text="Total:"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.183"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.7" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="61dp"
+            android:layout_height="56dp"
+            android:src="@drawable/comanda"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.782"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.102" />
+
+        <Button
+            android:id="@+id/buttonVolverCarrito"
+            android:layout_width="253dp"
+            android:layout_height="52dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="CANCELAR"
+            android:textColor="#755423"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.91"
+            app:strokeColor="#755423"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/buttonConfirmarCarrito2"
+            android:layout_width="253dp"
+            android:layout_height="52dp"
+            android:backgroundTint="#755423"
+            android:text="CONFIRMAR"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="2dp" />
+
+        <TextView
+            android:id="@+id/textViewBeguda"
+            android:layout_width="285dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/cairo"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#603B1F"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.341" />
+
+        <TextView
+            android:id="@+id/textViewPrimer"
+            android:layout_width="285dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/cairo"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#603B1F"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428" />
+
+        <TextView
+            android:id="@+id/textViewPostre2"
+            android:layout_width="285dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/cairo"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#603B1F"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.512" />
+
+        <TextView
+            android:id="@+id/textViewTotal"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:background="@drawable/round_total"
+            android:backgroundTint="#9C7557"
+            android:fontFamily="@font/cairo"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.706" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/drawable/round_bottom.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/drawable/round_bottom_corner.xml" value="0.2703125" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/drawable/round_left.xml" value="0.2703125" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/drawable/round_prova.xml" value="0.2703125" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/drawable/round_right.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/drawable/round_top.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/drawable/round_top_corner.xml" value="0.2703125" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/drawable/round_total.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/drawable/splash_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/fragment_about.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/fragment_begudes.xml" value="0.2" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/fragment_carrito.xml" value="0.23225806451612904" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/fragment_historial.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/fragment_inici.xml" value="0.264" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/fragment_inici2.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/fragment_menu.xml" value="0.264" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/fragment_postres.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/fragment_primers.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/fragment_register.xml" value="0.264" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/fragment_rellenar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/item_comanda_recyclerview.xml" value="0.536" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/item_recyclerview.xml" value="0.536" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/launch_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/nav_header.xml" value="0.4" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/layout/round_corner.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/jordi/AndroidStudioProjects/Cafeteria_final/app/src/main/res/menu/activity_main_drawer.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

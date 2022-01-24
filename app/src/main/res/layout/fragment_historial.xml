@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.HistorialFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/titleConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3BC58542">
+
+        <TextView
+            android:id="@+id/textHistorial"
+            android:layout_width="211dp"
+            android:layout_height="71dp"
+            android:fontFamily="@font/fredoka_one"
+            android:shadowColor="#F1BA90"
+            android:shadowDy="6"
+            android:shadowRadius="4"
+            android:text="HISTORIAL DE COMANDES"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#755423"
+            android:textSize="29sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.335"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.104" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewComandes"
+            android:layout_width="317dp"
+            android:layout_height="310dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHistorial"
+            app:layout_constraintVertical_bias="0.094" />
+
+        <ImageView
+            android:id="@+id/imageViewHist"
+            android:layout_width="49dp"
+            android:layout_height="47dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/hist"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.814"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.115" />
+
+        <Button
+            android:id="@+id/buttonVolverHistorial"
+            android:layout_width="253dp"
+            android:layout_height="52dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="TORNAR"
+            android:textColor="#755423"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.891"
+            app:strokeColor="#755423"
+            app:strokeWidth="2dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

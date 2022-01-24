@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/itemBeguda"
+        android:layout_width="254dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/round_top_corner"
+        android:fontFamily="@font/cairo"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/itemPrimer"
+        android:layout_width="254dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="36dp"
+        android:background="#C1955E"
+        android:fontFamily="@font/cairo"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/itemPostre"
+        android:layout_width="254dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/round_bottom_corner"
+        android:fontFamily="@font/cairo"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/itemTotal"
+        android:layout_width="79dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/round_right"
+        android:fontFamily="@font/cairo"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

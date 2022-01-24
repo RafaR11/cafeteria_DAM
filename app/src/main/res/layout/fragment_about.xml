@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.AboutFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/titleConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3BC58542">
+
+
+        <TextView
+            android:id="@+id/textAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:fontFamily="@font/fredoka_one"
+            android:shadowColor="#F1BA90"
+            android:shadowDy="6"
+            android:shadowRadius="4"
+            android:text="INFORMACIÓ"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#755423"
+            android:textSize="37sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.367"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.099" />
+
+        <ImageView
+            android:id="@+id/imageViewInfo"
+            android:layout_width="51dp"
+            android:layout_height="56dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/about"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.83"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.087" />
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="259dp"
+            android:layout_height="37dp"
+            android:fontFamily="@font/cairo"
+            android:text="cafdam@gmail.com"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.513"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.226" />
+
+        <TextView
+            android:id="@+id/textViewTelf"
+            android:layout_width="259dp"
+            android:layout_height="37dp"
+            android:fontFamily="@font/cairo"
+            android:text="678 945 623"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.513"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.315" />
+
+        <TextView
+            android:id="@+id/textViewCarrer"
+            android:layout_width="259dp"
+            android:layout_height="37dp"
+            android:fontFamily="@font/cairo"
+            android:text="C/Xiprer, 23"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.513"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.409" />
+
+        <Button
+            android:id="@+id/buttonVolverInfo"
+            android:layout_width="253dp"
+            android:layout_height="52dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="TORNAR"
+            android:textColor="#755423"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.91"
+            app:strokeColor="#755423"
+            app:strokeWidth="2dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="280dp"
+            android:layout_height="169dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/cafet"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.677" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

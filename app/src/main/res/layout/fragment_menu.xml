@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.MenuFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3BC58542">
+
+                <TextView
+                    android:id="@+id/textBenvingut"
+                    android:layout_width="324dp"
+                    android:layout_height="43dp"
+                    android:fontFamily="@font/fredoka_one"
+                    android:shadowColor="#F1BA90"
+                    android:shadowDy="6"
+                    android:shadowRadius="4"
+                    android:text='BENVINGUT "USUARI"!'
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#755423"
+                    android:textSize="28sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.494"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.075" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonEscollirMenu"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:background="#00FFFFFF"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/escollir"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.381"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonHistorial"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:background="#00FFFFFF"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/history"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.557"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonInfo"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:background="#00FFFFFF"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/info"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.731"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/buttonLogout"
+                    android:layout_width="205dp"
+                    android:layout_height="52dp"
+                    android:backgroundTint="#B15353"
+                    android:text="TANCAR SESSIÓ"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.893"
+                    app:strokeColor="#FFFFFF"
+                    app:strokeWidth="2dp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="98dp"
+                    android:layout_height="93dp"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/logo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.167" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
